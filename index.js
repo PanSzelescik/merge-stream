@@ -10,6 +10,7 @@ module.exports = function (/*streams...*/) {
 
   output.add = add
   output.isEmpty = isEmpty
+  output.remove = remove
 
   output.on('unpipe', remove)
 
